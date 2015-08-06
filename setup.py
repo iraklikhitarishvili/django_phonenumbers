@@ -9,16 +9,16 @@ os.chdir(os.path.normpath(os.path.join(os.path.abspath(__file__), os.pardir)))
 
 setup(
     name='django-phonenumbers',
-    version='0.1.3',
+    version='0.1.0',
     packages=['django_phonenumbers'],
     include_package_data=True,
     license='BSD License',  # example license
     description='Phone number field for Django admin',
     long_description=README,
-    url='https://github.com/iraklikhitarishvili/html5croppingtools',
+    url='https://github.com/iraklikhitarishvili/django_phonenumbers',
     author='irakli khitarishvili',
     author_email='iraklikhitarishvili@yahoo.com',
-    install_requires=['pillow'],
+    install_requires=['phonenumbers'],
     classifiers=[
         'Development Status :: 4 - Beta',
         'Environment :: Web Environment',
@@ -28,7 +28,5 @@ setup(
         'Intended Audience :: Developers',
         'License :: OSI Approved :: BSD License',
         'Operating System :: OS Independent',
-        'Topic :: Internet :: WWW/HTTP',
-        'Topic :: Internet :: WWW/HTTP :: Dynamic Content',
     ],
 )

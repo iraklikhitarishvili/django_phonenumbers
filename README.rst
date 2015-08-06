@@ -22,7 +22,6 @@ manage.py
 settings.py
 =========
 
-::
 
 .. code:: python
 

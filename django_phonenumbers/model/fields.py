@@ -37,4 +37,4 @@ class PhoneNumberField(models.Field):
         return super().formfield(**defaults)
 
     def db_type(self, connection):
-        return 'char(%s)' % self.max_length
+        return 'char(%s)' % (self.max_length if self.max_length else str(100),)

@@ -1,6 +1,6 @@
 Metadata-Version: 1.1
 Name: django-phonenumbers
-Version: 0.1.0
+Version: 1.0.1
 Summary: Phone number field for Django admin
 Home-page: https://github.com/iraklikhitarishvili/django_phonenumbers
 Author: irakli khitarishvili
@@ -28,7 +28,7 @@ Description: Installation
              run manage.py collectstatic
         
         settings.py
-        =========
+        ===========
         
         
         .. code:: python

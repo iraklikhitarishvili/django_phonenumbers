@@ -2,4 +2,6 @@ include LICENSE.txt
 include README.rst
 recursive-include django_phonenumbers/static *
 recursive-include django_phonenumbers/templatetags *
+recursive-include django_phonenumbers/form *
+recursive-include django_phonenumbers/model *
 recursive-include docs *

@@ -20,7 +20,7 @@ manage.py
      run manage.py collectstatic
 
 settings.py
-===========
+=========
 
 
 .. code:: python
